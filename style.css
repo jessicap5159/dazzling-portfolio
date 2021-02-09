@@ -14,8 +14,13 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-color:rgb(106, 195, 228); 
+    
+    background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
 }
+ 
+
 
 header h1, h2, h3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
@@ -50,24 +55,49 @@ a:link {
     color:rgb(126, 123, 123); 
   }
 
+#about-me-content img
+ {
+    width: 250px; 
+    height: 300px;
+    
 
-img {
-    width: 20%;
-    display: flex;
-    justify-content: flex-end;
 }
 
-p {
-    background-size: cover;
-    background-position: 80%;
+.about-me-content {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.about-me-content p {
+    width: 60%;
+    padding: 10px;
+
+}
+
+.about-me-content img {
+    width: 20%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 100px 0 0;
+    
+}
+.recent-work img {
+    border-radius: 15px;
+}
+
+
+p {
+   text-align: left;
     flex-wrap: wrap; }
 
 
 
 ul {list-style-type: none;}
 
-footer {
-    background-color: rgb(106, 195, 228); 
-   }
+#footer {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+      
