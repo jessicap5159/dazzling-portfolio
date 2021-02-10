@@ -1,7 +1,7 @@
 
 body {
-background-color:rgb(115, 210, 245); 
-color: white; 
+    background-color: rgb(84 116 128);
+    color: white; 
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
@@ -20,7 +20,7 @@ header {
     background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
-  background-color: rgb(108, 128, 128);
+  background-color: rgb(74 74 74);
 
 }
  
