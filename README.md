@@ -3,6 +3,8 @@
 ## Purpose/Description
 A webpage to show off my awesome HTML and CSS skills. 
 
+![screen shot of about me](./images/screenshot.png)
+
 ## Built With
 HTML and CSS
 
