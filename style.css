@@ -7,6 +7,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
+/* Header and Nav */
+
 header {
     padding: 20px 35px;
     display: flex;
@@ -49,7 +51,7 @@ header nav ul {
         line-height: 2.0;
     }
 
-      
+ /* Links */     
 
 a:link {
     color: white; 
@@ -60,6 +62,8 @@ a:link {
   a:visited {
     color:rgb(126, 123, 123); 
   }
+
+/* About Me */
 
 #about-me-content img {
     width: 250px; 
@@ -96,6 +100,7 @@ a:link {
     margin: 0 100px 0 0;
     
 }
+/* Recent Work */ 
 
 #recent-work {
     margin: auto;
@@ -121,7 +126,7 @@ div.images {
     text-align: center;
   }
 
- 
+ /* Responsivity */ 
   
   * {
     box-sizing: border-box;
@@ -164,6 +169,7 @@ header nav {
     }
   }
 
+/* Content and Footer */
 
 p {
    text-align: left;
