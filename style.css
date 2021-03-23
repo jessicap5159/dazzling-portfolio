@@ -20,7 +20,7 @@ header {
     background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
-  background-color: rgb(74 74 74);
+  background-color: rgb(84 116 128);
 
 }
  
@@ -60,7 +60,7 @@ a:link {
   }
  
   a:visited {
-    color:rgb(126, 123, 123); 
+    color:rgb(24, 23, 23); 
   }
 
 /* About Me */
